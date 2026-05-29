@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build DX Ball",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-std=c++17", "-O2", "-g",
+        "main.cpp", "globals.cpp", "ui.cpp", "levels.cpp",
+        "game.cpp", "physics.cpp", "menu.cpp", "input.cpp", "sound.cpp",
+        "-I", "C:/freeglut/include",
+        "-L", "C:/freeglut/lib/x64",
+        "-lfreeglut", "-lopengl32", "-lglu32", "-lwinmm",
+        "-mwindows",
+        "-o", "dxball.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
