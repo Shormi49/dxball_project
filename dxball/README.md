@@ -1,11 +1,11 @@
 # DX Ball — CSE 426 Computer Graphics Lab
-## Spring 2025 | OpenGL + FreeGLUT | C++17
+## OpenGL + FreeGLUT | C++
 
 ---
 
 ## ✅ Features Implemented
 
-### Basic Requirements (30 marks)
+### Basic Requirements 
 | Feature | Detail |
 |---|---|
 | Base gameplay | Playable paddle-and-ball game |
@@ -18,7 +18,7 @@
 | Pause | Press P any time during gameplay |
 | Exit | ESC returns to menu; Q exits |
 
-### Bonus Features (15 marks)
+### Bonus Features 
 | Feature | Detail |
 |---|---|
 | Wall (indestructible) bricks | Grey bricks in Level 3+, ball bounces off |
